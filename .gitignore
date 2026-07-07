@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+.nyc_output
+coverage
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel
+
+# Environment variables
+.env.local
+.env.*.local
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.logs
+
+# Build
+build/
+dist/
+
+# Prisma
+.prisma/
+
+# Docker
+db/
+.docker/
+
+# OS
+Thumbs.db
+.directory
+
+# Soroban
+target/
+*.wasm
+*.wasm.map

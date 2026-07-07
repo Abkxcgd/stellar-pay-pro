@@ -1,0 +1,16 @@
+node_modules
+.git
+.gitignore
+.next
+out
+dist
+build
+.env.local
+.env.*.local
+.DS_Store
+*.log
+logs
+.vscode
+.idea
+coverage
+.prisma
