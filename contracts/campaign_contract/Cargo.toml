@@ -1,0 +1,15 @@
+[package]
+name = "campaign-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = "21.4.0"
+
+[dev-dependencies]
+soroban-sdk = { version = "21.4.0", features = ["testutils"] }
+
+[lib]
+opt-level = "z"
+lto = true
+cdbg = false
